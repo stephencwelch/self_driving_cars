@@ -2,20 +2,20 @@
 
 ![](videos/training_animation_smaller.gif)
 
-This repository contains a set of companion notebooks to the Welch Labs Self-Driving Car series. 
+This repository contains a set of companion notebooks to the Welch Labs Self-Driving Car series.
 
-## Note 
+## Note
 For notebooks to display graphics properly you many need to launch the jupyter notebook from the root of this repo.
 
-## Setup 
+## Setup
 
-The Python 3 [Anaconda Distribution](https://www.anaconda.com/download) is the easiest way to get going with the notebooks and code presented here. 
+The Python 3 [Anaconda Distribution](https://www.anaconda.com/download) is the easiest way to get going with the notebooks and code presented here.
 
-(Optional) You may want to create a virtual environment for this repository: 
+(Optional) You may want to create a virtual environment for this repository:
 
 ~~~
-conda create -n cv python=3 
-source activate cv
+conda create -n cv python=3.6
+conda activate cv
 ~~~
 
 You'll need to install the jupyter notebook to run the notebooks:
@@ -32,7 +32,7 @@ This repository requires the installation of a few extra packages, you can insta
 pip install -r requirements.txt
 ~~~
 
-(Optional) [jupyterthemes](https://github.com/dunovank/jupyter-themes) can be nice when presenting notebooks, as it offers some cleaner visual themes than the stock notebook, and makes it easy to adjust the default font size for code, markdown, etc. You can install with pip: 
+(Optional) [jupyterthemes](https://github.com/dunovank/jupyter-themes) can be nice when presenting notebooks, as it offers some cleaner visual themes than the stock notebook, and makes it easy to adjust the default font size for code, markdown, etc. You can install with pip:
 
 ~~~
 pip install jupyterthemes
