@@ -3,7 +3,7 @@ astor==0.7.1
 astroid==1.6.4
 backcall==0.1.0
 bleach==3.1.0
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 cycler==0.10.0
 decorator==4.3.0
